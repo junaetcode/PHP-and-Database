@@ -25,11 +25,8 @@
 
        
 
-include 'tableorder.php'; //--------ei line ta 32 number mane if er vitor dile database kaj korbe------
-
-
         if($count == 1){  
-            
+            include 'tableorder.php'; 
         }  
         else{  
             echo "<h1> Login failed. Invalid username or password.</h1>
